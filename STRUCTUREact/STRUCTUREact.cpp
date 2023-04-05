@@ -10,3 +10,7 @@ struct mahasiswa
 };
 
 
+int main() {
+	mahasiswa mhs, mhs2;
+
+	
