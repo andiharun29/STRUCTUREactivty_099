@@ -15,3 +15,21 @@ struct mahasiswa
 };
 
 
+int main() {
+	mahasiswa mhs;
+
+	cout << "masukan nim =";
+	cin.getline(mhs.nim, 12);
+	cout << "masukan umur=";
+	cin >> mhs.umur;
+	cin.ignore(1, '\n');
+	cout << "masukan nama=";
+	cin.getline(mhs.nama, 20);
+	cout << "Alamat=";
+	cout << "\n\tMasukan Desa =";
+	cin.getline(mhs.alamat.Desa, 20);
+	cout << "\n\tMasukan Kota =";
+	cin.getline(mhs.alamat.Kota, 20);
+
+	
+}
