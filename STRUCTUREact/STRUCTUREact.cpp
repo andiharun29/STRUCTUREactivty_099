@@ -18,4 +18,13 @@ int main() {
 	mhs.nama = "andi harun al rasyid";
 	mhs.alamat = "kendari";
 
+	cout << "masukan nim =";
+	cin >> mhs2.nim;
+	cout << "masukan umur=";
+	cin >> mhs2.umur;
+	cout << "masukan nama=";
+	cin >> mhs2.nama;
+	cout << "masukan alamat=";
+	cin >> mhs2.alamat;
+
 	
