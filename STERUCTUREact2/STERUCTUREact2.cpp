@@ -31,5 +31,10 @@ int main() {
 	cout << "\n\tMasukan Kota =";
 	cin.getline(mhs.alamat.Kota, 20);
 
-	
+	cout << "\n\nNIM = " << mhs.nim;
+	cout << "\nUmur = " << mhs.umur;
+	cout << "\nNama = " << mhs.nama;
+	cout << "\nAlamat = ";
+	cout << "\n\tDesa = " << mhs.alamat.Desa;
+	cout << "\n\tKota = " << mhs.alamat.Kota;
 }
